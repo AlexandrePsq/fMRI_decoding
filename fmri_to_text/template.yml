@@ -1,0 +1,18 @@
+# Yaml template
+masker_path: /home/td******
+language: english
+tr: 2.0
+nscans: # values for english
+    - 282
+    - 298
+    - 340
+    - 303
+    - 265
+    - 343
+    - 325
+    - 292
+    - 368
+shift: 10 # nb of seconds to take into account after the end of the sentence
+path_to_fmridata: /neurospin/unicog/protocols/IRMf/LePetitPrince_Pallier_2018/LePetitPrince/data/
+path_to_fMRI_example: /neurospin/unicog/protocols/IRMf/LePetitPrince_Pallier_2018/LePetitPrince/data/fMRI/english/sub-057/func/fMRI_*run*
+path_to_onset_file_example:  /neurospin/unicog/protocols/IRMf/LePetitPrince_Pallier_2018/LePetitPrince/data/wave/english/onsets-offsets/word+punctuation_run*
